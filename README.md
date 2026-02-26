@@ -27,7 +27,13 @@ vue3-ai-tutorial/
 ├── .gitignore
 ├── PROMPT.md              ← メイン指示書（AIに最初に読み込ませる）
 ├── CHAPTER_TEMPLATE.md    ← 章テンプレート（各章の出力フォーマット）
-└── CURRICULUM.md          ← カリキュラム（全20章の目次と概要）
+├── CURRICULUM.md          ← カリキュラム（全20章の目次と概要）
+└── tutorial/
+    └── v3.5/              ← Vue 3.5.x 対象のチュートリアル本文
+        ├── chapter01.md
+        ├── chapter02.md
+        ├── chapter03.md
+        └── ...            （全20章を順次追加）
 ```
 
 ## 使い方
